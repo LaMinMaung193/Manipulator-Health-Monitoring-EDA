@@ -1,4 +1,4 @@
-# 🤖 01 - Data Exploration: Manipulator Health Monitoring (EDA)
+#  01 - Data Exploration: Manipulator Health Monitoring (EDA)
 
 This notebook marks **Phase 1: Exploratory Data Analysis (EDA)** of the manipulator (robot arm) degradation project.
 
@@ -6,7 +6,7 @@ Our goal is to thoroughly explore the raw data from the UR5 robot arm degradatio
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Perform an Exploratory Data Analysis (EDA) on the **UR5 robot arm degradation dataset** (source: NIST).
 
@@ -29,8 +29,3 @@ The data files are organized within the project's `data/` directory.
 | `Calculated deviation of actual position to nominal position.xls` | Excel (`.xls`) | **Summary of pose accuracy degradation** (calculated deviation of actual position to nominal position). |
 | `~18 CSV files` | CSV (`.csv`) | **Joint-level sensing data** across different test conditions (the primary data for analysis). |
 
-### Dataset Path Structure
-
-The files reside in the `data/raw/` subdirectory:
-
-data/ ├── raw/ │   ├── header/ │   │   └── UR5TestResult_header.xlsx │   ├── summary/ │   │   └── Calculated deviation...xls │   └── sensor_data/ │       └── <all CSV files> └── processed/
